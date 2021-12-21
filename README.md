@@ -49,8 +49,8 @@ Refer to the extended examples (`example/exampleX.tex`) for an overview of the p
 
 Class options
 -------------
-The theme options can be set as follows:
-`\usepackage[optionshere]{ugent-letter}`
+The class options can be set as follows:
+`\usepackage[optionshere]{ugent-doc}`
 
 * `language=x`, where x is the language
   * `nl`: dutch (default)
@@ -73,6 +73,8 @@ The theme options can be set as follows:
 * `sftitles=x`, where x is either
   * `true`: the titlepage and all titles (chapters, sections, etc.) are typeset in sans serif, regular text in serif/roman (default)
   * `false`: the entire document is typeset in serif/roman
+
+Note that the options for the underlying article or report class can still be passed in the usual way.
 
 License
 =======
