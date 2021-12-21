@@ -61,22 +61,19 @@ The theme options can be set as follows:
   * `we`: Faculty of Science
   * `ge`: Faculty of Medicine and Health Sciences
   * `ea`: Faculty of Engineering and Architecture
-  * `eb`: Faculty of Economics and Business Administration
+  * `eb`: Faculty of Economics and Business Administration (default)
   * `di`: Faculty of Veterinary Medicine
   * `pp`: Faculty of Psychology and Educational Sciences
   * `bw`: Faculty of Bioscience Engineering
   * `fw`: Faculty of Pharmaceutical Sciences
   * `ps`: Faculty of Political and Social Sciences
-* `signature` 
-  * Add this option to use the signature file to sign the letter (see below)
-  * Replace the file `signature.png` by your own signature
-* `pagenumbers`
-  * This option enables page numbers in the format [current page]/[total pages]
-* `rightcolwidth`
-  * This option defines the width of the right column (where department and 'from' information appears)
-  * It represents the the percentage of the total `\textwidth` and defaults to 0.25
-  * You might want to change this value in case of e.g. long department names
-  
+* `doctype=x`, where x is the document class that is loaded
+  * `article`: article class
+  * `report`: report class 
+* `sftitles=x`, where x is either
+  * `true`: the titlepage and all titles (chapters, sections, etc.) are typeset in sans serif, regular text in serif/roman (default)
+  * `false`: the entire document is typeset in serif/roman
+
 License
 =======
 This software is released under the [GNU GPL v3.0 License](https://www.gnu.org/licenses/gpl-3.0.en.html).
