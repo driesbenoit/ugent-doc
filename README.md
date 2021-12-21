@@ -15,7 +15,7 @@ Extended examples are available. See the `example` folder.
 
 Some example covers:
 
-![](https://github.com/driesbenoit/ugent-doc/blob/master/example-screenshots/example1.png)
+![](https://github.com/driesbenoit/ugent-doc/blob/master/example-screenshots/example3.png)
 
 Download
 ========
