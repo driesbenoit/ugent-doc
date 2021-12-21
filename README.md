@@ -1,7 +1,7 @@
 # Version v0.1-0
 The aim of this `ugent-doc` LaTeX class:
 * A template that closely resembles the official [UGent MS Word cover templates](https://styleguide.ugent.be/templates/print.html#cover).
-* Faculty specific versions.
+* Takes the faculty as input/option and loads corresponding logo and colors.
 * Ease-of-use for the average LaTeX user.
 * Similar theme options as the [UGent beamer theme](https://github.com/driesbenoit/ugent-beamer).
 * Similar theme options as the [UGent letter theme](https://github.com/driesbenoit/ugent-letter).
