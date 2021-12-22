@@ -70,7 +70,7 @@ The class options can be set as follows:
   * `fw`: Faculty of Pharmaceutical Sciences
   * `ps`: Faculty of Political and Social Sciences
 * `doctype=x`, where x is the document class that is loaded
-  * `article`: article class
+  * `article`: article class (default)
   * `report`: report class 
 * `sftitles=x`, where x is either
   * `true`: the titlepage and all titles (chapters, sections, etc.) are typeset in sans serif, regular text in serif/roman (default)
