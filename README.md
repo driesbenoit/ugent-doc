@@ -31,7 +31,7 @@ Once you have the files, all that is required for the theme to work is putting t
 
 Ad-hoc installation 
 -------------------
-After downloading, copy the files named ugent-doc.cls together with all \*.pdf (logo) files from the figures folder, into the same folder as your LaTeX source file.
+After downloading, copy the files named `ugent-doc.cls` together with all \*.pdf (logo) files from the figures folder, into *the same folder* as your LaTeX source file.
 Note that the \*.cls file expects the the logo files to be in *the same directory* as your main \*.tex file.
 **Not** in your `figures` or `images` folder where you store the figures you might use in your document.
 
