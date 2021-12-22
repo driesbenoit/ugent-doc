@@ -31,19 +31,24 @@ Once you have the files, all that is required for the theme to work is putting t
 
 Ad-hoc installation 
 -------------------
-After downloading, copy the files named ugent-doc.cls together with all *.pdf files from the figures folder, into the same folder as your LaTeX source file.
+After downloading, copy the files named ugent-doc.cls together with all \*.pdf (logo) files from the figures folder, into the same folder as your LaTeX source file.
+Note that the \*.cls file expects the the logo files to be in *the same directory* as your main \*.tex file.
+**Not** in your `figures` or `images` folder where you store the figures you might use in your document.
 
 Then load the ugent-doc class by writing:
 ```latex
 \documentclass[12pt,a4paper,faculty=eb]{ugent-doc}
 ```
-in the preamble of your document. For the faculty, you might want to change 'eb' to the abbreviation of your faculty.
+in the preamble of your document. For the faculty, you probably want to change 'eb' to the abbreviation of your own faculty (see below).
 
 Global installation
 -------------------
-In case you're using your favorite flavor of Unix (and/or TeX Live) you need to have a local directory (this will probably be ~/texmf/) and you need to place all the files from the theme folder in the directory ~/texmf/tex/latex/mystyles/ugent-doc/, finishing it by running texhash.
+In case you're using your favorite flavor of Unix (and/or TeX Live) you need to have a local directory (this will probably be ~/texmf/) and you need to place all the files from the theme folder in the directory `~/texmf/tex/latex/mystyles/ugent-doc/`, finishing it by running texhash.
 
 If on the other hand you're on Windows (probably MiKTeX) the walkthrough at [this url](http://docs.miktex.org/manual/localadditions.html) explains in detail how to create a local installation. Don't forget to Refresh FNDB as explained [here](http://docs.miktex.org/manual/configuring.html#fndbupdate).
+
+A global installation has the advantage that you can keep your working directory clean: all files related to the class/template are stored in your global LaTeX directory (\*.cls, logo files, etc.).
+Your working directory only contains the files related to the document you are writing (\*.tex files, images, \*.bib file, etc.).
 
 Usage
 =====
