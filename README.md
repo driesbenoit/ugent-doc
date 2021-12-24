@@ -10,6 +10,8 @@ The aim of this `ugent-doc` LaTeX class:
 Requires the packages kvoptions, geometry, calc, graphicx and xcolor.
 Most likely these packages are already included in your LaTeX distribution (Miktex, Tex-Live).
 
+Also available as [Overleaf template](https://www.overleaf.com/latex/templates/ugent-doc/hwzbzjtysbhp).
+
 Demo
 ----
 Extended examples (still work in progress) are available. See the `example` folder.
